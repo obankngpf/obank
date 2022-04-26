@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1200px) {
+.half{
+	width:100%;
+}
+.form-block .half:first-child {
+    padding-right:0;
+}
+.form-block .half:last-child {
+    padding-left: 0;
+}
+.log-in .btn{
+	padding: 8px 15px;
+}
+}
+
+@media screen and (max-width:1024px) {
+.ul_hover li span + .tooltip:after{
+	top:auto;
+	bottom:-5px;
+	left:0;
+	right:0;
+	margin:auto;
+	transform:rotate(-90deg);
+}
+}
+
+@media screen and (max-width: 991px) {  
+/*-- inner header --*/
+.simulation, .settings{
+	font-size:11px;
+}
+.notification-pop{
+	margin: 8px 15px 8px 10px;
+}
+.simulation{
+    margin: 6px 0px 0 0;
+}
+.simulation div {
+    margin: 0 3px;
+}
+.simulation .btn {
+	margin-left: 3px;
+	padding: 4px 10px 5px;
+}
+.month-select {
+    width: 100px;
+}
+/*-- log in --*/
+.log-in .input-box, .submit_box{
+	width:100%;
+	padding:0;
+}
+.submit_box{
+	margin:15px 0 0;
+}
+
+/*-- form --*/
+.form-block label, .form-cover{
+	width:100%;
+}
+.form-group {
+    margin: 0 0 10px;
+}
+/*-- data table --*/
+.table-block{
+	overflow:auto;
+	padding-bottom:30px;
+}
+
+}
+
+@media screen and (max-width: 768px) {    
+.left-side{
+	width: 245px;
+}
+.left-side ul li a{
+	font-size:14px;
+}
+}
+
+@media screen and (max-width: 767px) { 
+/*-- home --*/
+.bg .form-block {
+	padding:15px;
+}
+.bg .form-block .btn {
+    padding: 10px 10px;    
+}
+/*-- header --*/
+.logo{
+    margin: 0 auto 10px;
+    display: block;
+    text-align: center;
+}
+.reg{
+	float:none;
+	display:table;
+	margin: 0 auto;
+	padding: 8px 25px;
+}
+/*-- inner header --*/
+.header-right {    
+    display: table;
+    margin: 0 auto;
+}
+.inner-header hr{
+	margin:0;
+}
+/*-- welcome --*/
+.welcome h1 {
+    font-size: 25px;
+    line-height: 35px;    
+    letter-spacing: 0.1em;
+}
+
+/*-- menu --*/
+.left-side{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100vh;
+	height:100%;
+	overflow-y:auto;
+	z-index:999;
+	transform:translateX(-300px);
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.left-side.show-menu{
+	transform:translateX(0);
+	-webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.right-side{
+	width:100%;
+	padding:0;
+}
+.menu_btn{
+	display:block;
+	cursor:pointer;
+    background: #f05523;
+    padding: 5px;
+    font-size: 24px;
+    color: #fff;
+	margin:0 0 25px;
+}
+.form-block .btn, .btn.lg {
+    padding: 15px 15px;
+    margin: 0 0 10px 10px;
+}
+body.fixed{
+	position:fixed;
+	top:0;
+	width:100%;
+}
+/*-- monthly-statement --*/
+.from-to .form-group{
+	width:100%;
+}.from-to .btn.lg{
+	float:right;
+}
+}
+
+@media screen and (max-width: 640px) { 
+/*-- inner header --*/
+.simulation, .settings{
+	float:none;
+	margin:0;
+}
+.settings{
+	display:none;
+}
+.settings-mob{
+	display:block;
+	position:absolute;
+	top:15px;
+	right:15px;
+}
+.settings span{
+	padding-right: 0px;
+}
+.settings span:after{
+	display:none;
+}
+.dropdown-menu{
+	left:auto;
+	right:0;
+}
+.notification-pop {
+    margin: 3px 15px 0 20px;
+}
+/*-- log in --*/
+.log-in{
+	padding: 15px 15px;
+}
+.log-in h3{
+	font-size:15px;
+}
+.log-in .input-box .form-group {
+    width: 100%;
+}
+/*-- dashboard --*/
+.service-block {
+    font-size: 18px;
+    line-height: 24px;
+}
+.service-block a {
+	padding: 20px 25px;
+}
+/*-- manage profile --*/
+.alert_block .alert_box{	
+    width: 100%;
+	margin:0 0 5px;
+}
+.alert_block .alert_amt{
+	width:100%;
+}
+}
+
+@media screen and (max-width: 480px) { 
+/*-- inner header --*/
+.logo{
+	width:150px;
+}
+.settings-mob {    
+    top: 10px;
+    right: 15px;
+}
+.notification-pop {
+    margin: 27px 15px 0 20px;
+}
+.user-img {
+    width: 30px;
+    height: 30px;
+}
+.simulation span{
+	display:block;
+	text-align:center;
+	margin:0 0 5px;
+}
+/*-- deposit cheque --*/
+.inside_mob{
+	width:300px;
+	margin:0 auto;	
+}
+.mob-top{
+	height: 72px;
+}
+.mob-middle{
+	background-size:100% auto;
+}
+.inside_mob .btn, #addpayee .form-block .btn {
+    padding: 10px 10px;
+	margin:0;
+}
+.inside_mob .btn .fa, #addpayee .form-block .btn {
+    margin: 0 10px 0 0;
+}
+}
